@@ -1,3 +1,5 @@
 [12-Feb-2021 21:42:13 Asia/Tokyo] PHP Notice:  Undefined variable: password_hash in /var/www/html/user/action/register.php on line 14
 [12-Feb-2021 21:43:09 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 16
 [12-Feb-2021 21:53:43 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 16
+[12-Feb-2021 23:17:29 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 20
+[12-Feb-2021 23:17:29 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/memo/action/update.php on line 21
