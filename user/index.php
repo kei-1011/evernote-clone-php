@@ -1,5 +1,11 @@
 <?php
 session_start();
+require '../common/auth.php';
+
+if(is_login()) {
+    header('Location: ../memo/');
+    exit;
+}
 ?>
 <!DOCTYPE html>
 <html lang="ja">

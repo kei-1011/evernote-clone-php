@@ -1,3 +1,12 @@
+<?php
+  require '../common/auth.php';
+
+  if (!is_login()) {
+      header('Location: ../login/');
+      exit;
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <?php
@@ -15,7 +24,7 @@ echo get_header("メモ投稿");
           </div>
           <div class="pr-1">
             <a href="" class="btn btn-success"><i class="fas fa-plus"></i></a>
-            <a href="../login/" class="btn btn-dark"><i class="fas fa-sign-out-alt"></i></a>
+            <a href="./action/logout.php" class="btn btn-dark"><i class="fas fa-sign-out-alt"></i></a>
           </div>
         </div>
         <div class="left-memo-title h3 pl-3 pt-3">
